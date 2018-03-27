@@ -1,0 +1,26 @@
+{
+  "name": "biscotti-cpp",
+  "version": "1.0.0",
+  "description": "CoffeeScript preprocessor",
+  "main": "build/npm/src/index.js",
+  "scripts": {
+    "test": "gulp npm:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandastrike/biscotti-cpp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandastrike/biscotti-cpp/issues"
+  },
+  "homepage": "https://github.com/pandastrike/biscotti-cpp#readme",
+  "devDependencies": {
+    "amen": "^2.0.5",
+    "coffeescript": "^2.2.3",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "panda-builder": "^1.1.7"
+  }
+}
