@@ -13,7 +13,7 @@ processor = ({globals = {require}, open = "::", close}) ->
     do include
     buffer
     embedded open, close
-    filter
+    filters.string
   ]
 
 export {processor as default}

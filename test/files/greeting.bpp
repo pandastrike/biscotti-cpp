@@ -1,0 +1,3 @@
+# Greetings!
+
+:: greeting = $ (name) -> Promise.resolve "Hello, #{name}!" ::
