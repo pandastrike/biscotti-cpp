@@ -16,7 +16,8 @@ do ->
       before: before
       actual: (render) -> render path: resolve "./test/files/index.bpp"
       expected: "# Greetings!\n\n\n\nThis is a test.\n\n\
-        Hello, Foo!\n\nGoodbye, now!"
+        Hello, Foo!\n\nGoodbye, now!\n\n\
+        This should get added."
 
     test "from content", verify
       before: before

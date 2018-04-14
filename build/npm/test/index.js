@@ -36,7 +36,7 @@ _asyncToGenerator(function* () {
         path: (0, _path.resolve)("./test/files/index.bpp")
       });
     },
-    expected: "# Greetings!\n\n\n\nThis is a test.\n\nHello, Foo!\n\nGoodbye, now!"
+    expected: "# Greetings!\n\n\n\nThis is a test.\n\nHello, Foo!\n\nGoodbye, now!\n\nThis should get added."
   })), (0, _amen.test)("from content", verify({
     before: before,
     actual: function (render) {
