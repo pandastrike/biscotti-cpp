@@ -19,10 +19,11 @@
   "homepage": "https://github.com/pandastrike/biscotti-cpp#readme",
   "devDependencies": {
     "amen": "^2.0.5",
-    "biscotti": "^2.0.1",
     "coffeescript": "^2.2.3",
     "gulp": "github:gulpjs/gulp#4.0",
     "panda-builder": "^1.1.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "biscotti": "^2.0.1"
+  }
 }
